@@ -1,0 +1,30 @@
+{
+  "name": "HelloKoa2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_ENV=production&&node bin/www",
+    "pm2": "pm2 start bin/www ",
+    "run": "set NODE_ENV=development&&nodemon bin/www",
+    "test": "set NODE_ENV=test&&echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "jade": "~1.11.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.0.1",
+    "koa-static": "^3.0.0",
+    "log4js": "^1.1.1",
+    "mysql": "^2.13.0",
+    "nunjucks": "^3.0.0",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}

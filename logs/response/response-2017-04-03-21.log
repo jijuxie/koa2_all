@@ -1,0 +1,48 @@
+[2017-04-03 21:43:54.578] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 22
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-03 21:44:04.726] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-03 21:44:11.616] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 15
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-03 21:47:23.313] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 18
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+

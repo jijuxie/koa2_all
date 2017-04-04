@@ -1,0 +1,44 @@
+[2017-04-03 13:09:22.650] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /?app=1
+request client ip:  ::1
+request query:  {"app":"1"}
+response time: 8
+err name: TypeError
+err message: this.query is not a function
+err stack: TypeError: this.query is not a function
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:7:22
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:9:4
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2017-04-03 13:10:20.433] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /?app=1
+request client ip:  ::1
+request query:  {"app":"1"}
+response time: 14
+err name: TypeError
+err message: ctx.query is not a function
+err stack: TypeError: ctx.query is not a function
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:7:21
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:9:4
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+*************** error log end ***************
+
