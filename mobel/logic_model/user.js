@@ -1,16 +1,10 @@
-'use strict';
-var db_user = require('../../mobel/db_model/users');
-var f = {};
-f.f1 = function () {
-    db_user.create({ name: '神1', password: 'abcd' });
+'use strtic';
+const db_users = require('../db_model/users');
+var user={};
+user.getUsers=async function (ctx,next) {
+    var users = JSON.parse(JSON.stringify(await db_users.findAll()));
+   ctx.data.res=users;
+   next();
+
 }
-f.f2 = function () {
-    db_user.select({ name: '神1', password: 'abcd' });
-}
-f.f3=function(){
-    db_user.updata({ name: '神1', password: 'abcdl' },{name:'神2',password:'hahahah'});
-}
-f.f4=function(){
-    db_user.delete({ name: '神1', password: 'abcd' });
-}
-module.exports = f;
+module.exports=user;

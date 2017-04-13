@@ -6,8 +6,8 @@ const json = require('koa-json');//导入json模块
 const onerror = require('koa-onerror');
 const bodyparser = require('koa-bodyparser')();
 const logger = require('koa-logger');//console日志系统
+const _index = require('./routes/_index');
 const index = require('./routes/index');
-const users = require('./routes/users');
 //log工具
 const log = require('./app_need/log');
 // error handler
@@ -18,8 +18,6 @@ app.use(bodyparser);
 app.use(json());
 app.use(logger());
 app.use(require('koa-static')(__dirname + '/public'));
-
-
 // app.use(views(__dirname + '/views', {
 //   extension: 'jade'
 // }));
@@ -28,6 +26,7 @@ app.use(require('koa-static')(__dirname + '/public'));
 app.use(async (ctx, next) => {
   const start = new Date();
   try {
+    
     await next();
     const ms = new Date() - start;
     log.logResponse(ctx, ms);
@@ -37,9 +36,7 @@ app.use(async (ctx, next) => {
     log.logError(ctx, e, ms);
   }
 });
-
 // routes
-app.use(index.routes(), index.allowedMethods());
-app.use(users.routes(), users.allowedMethods());
+app.use(_index.routes(), _index.allowedMethods());
 
 module.exports = app;

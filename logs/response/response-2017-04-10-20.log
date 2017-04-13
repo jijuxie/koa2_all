@@ -1,0 +1,588 @@
+[2017-04-10 20:14:50.697] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:14:50.731] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:15:03.310] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:15:11.678] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:15:24.613] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:16:17.746] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:16:18.593] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:31:11.870] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:32:15.142] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:32:23.984] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:52:48.974] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index.html
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:52:53.295] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index.htm
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:52:56.075] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index.ht
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:01.729] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:53:24.896] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index.html
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:30.623] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index.htmlhj
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:36.605] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inddex.htmlhj
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:37.680] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inddex.htmlhj
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:38.494] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inddex.htmlhj
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:53.090] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inddex.htmlhj
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:54.484] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inddex.htmlhj
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:53:59.420] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:54:09.341] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:54:12.813] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:54:35.615] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:54:41.800] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /bb
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:54:49.851] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:54:55.247] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:54:55.995] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:55:00.729] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:55:08.543] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:55:09.292] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:57:02.104] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-04-10 20:57:04.401] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:57:12.878] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:58:29.944] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:58:37.436] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:58:44.659] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:58:49.643] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:58:52.134] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:59:05.007] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:59:05.779] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:59:06.796] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-10 20:59:10.221] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:59:11.032] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:59:11.583] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:59:12.024] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:59:12.509] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2017-04-10 20:59:13.109] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /inde
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+

@@ -1,0 +1,96 @@
+[2017-04-12 20:01:05.590] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 193
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-12 20:01:46.738] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 157
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-12 20:03:01.083] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 134
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-12 20:03:04.001] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 19
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-12 20:03:06.066] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 21
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-12 20:05:46.196] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 141
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n小明\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-12 20:09:58.653] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 158
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n:<br/>\r\n\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-12 20:10:55.767] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 31
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n:<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n</body>\r\n</html>"
+*************** response log end ***************
+

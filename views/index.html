@@ -5,6 +5,8 @@
     <title>Title</title>
 </head>
 <body>
-{{name}}
+{% for user in users %}
+{{user.name}}:{{user.password}}<br/>
+{% endfor%}
 </body>
 </html>

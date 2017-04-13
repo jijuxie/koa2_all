@@ -1,0 +1,379 @@
+[2017-04-08 22:06:21.739] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /b
+request client ip:  ::1
+request query:  {}
+response time: 4
+err name: ReferenceError
+err message: user is not defined
+err stack: ReferenceError: user is not defined
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:12:40
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:12:36.549] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 22
+err name: ReferenceError
+err message: generateId is not defined
+err stack: ReferenceError: generateId is not defined
+    at Model.beforeValidate (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app_need\db.js:55:34)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\hooks.js:142:19
+    at tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Object.gotValue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:155:18)
+    at Object.gotAccum (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:144:25)
+    at Object.tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\debuggability.js:397:19)
+    at Promise._then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:232:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:125:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\promise.js:21:17)
+    at Instance.save (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\instance.js:573:29)
+    at Model.create (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\model.js:1821:6)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:8:27
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:12:41.435] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 4
+err name: ReferenceError
+err message: generateId is not defined
+err stack: ReferenceError: generateId is not defined
+    at Model.beforeValidate (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app_need\db.js:55:34)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\hooks.js:142:19
+    at tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Object.gotValue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:155:18)
+    at Object.gotAccum (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:144:25)
+    at Object.tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\debuggability.js:397:19)
+    at Promise._then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:232:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:125:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\promise.js:21:17)
+    at Instance.save (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\instance.js:573:29)
+    at Model.create (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\model.js:1821:6)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:8:27
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:13:39.868] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 22
+err name: ReferenceError
+err message: generateId is not defined
+err stack: ReferenceError: generateId is not defined
+    at Model.beforeValidate (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app_need\db.js:55:34)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\hooks.js:142:19
+    at tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Object.gotValue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:155:18)
+    at Object.gotAccum (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:144:25)
+    at Object.tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\debuggability.js:397:19)
+    at Promise._then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:232:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:125:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\promise.js:21:17)
+    at Instance.save (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\instance.js:573:29)
+    at Model.create (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\model.js:1821:6)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:8:17
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:14:27.688] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 20
+err name: ReferenceError
+err message: generateId is not defined
+err stack: ReferenceError: generateId is not defined
+    at Model.beforeValidate (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app_need\db.js:55:34)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\hooks.js:142:19
+    at tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Object.gotValue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:155:18)
+    at Object.gotAccum (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:144:25)
+    at Object.tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\debuggability.js:397:19)
+    at Promise._then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:232:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:125:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\promise.js:21:17)
+    at Instance.save (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\instance.js:573:29)
+    at Model.create (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\model.js:1821:6)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:9:17
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:14:42.842] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 6
+err name: ReferenceError
+err message: generateId is not defined
+err stack: ReferenceError: generateId is not defined
+    at Model.beforeValidate (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app_need\db.js:55:34)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\hooks.js:142:19
+    at tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Object.gotValue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:155:18)
+    at Object.gotAccum (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:144:25)
+    at Object.tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\debuggability.js:397:19)
+    at Promise._then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:232:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:125:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\promise.js:21:17)
+    at Instance.save (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\instance.js:573:29)
+    at Model.create (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\model.js:1821:6)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:9:17
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:14:44.517] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 4
+err name: ReferenceError
+err message: generateId is not defined
+err stack: ReferenceError: generateId is not defined
+    at Model.beforeValidate (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app_need\db.js:55:34)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\hooks.js:142:19
+    at tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Object.gotValue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:155:18)
+    at Object.gotAccum (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:144:25)
+    at Object.tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\debuggability.js:397:19)
+    at Promise._then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:232:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:125:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\promise.js:21:17)
+    at Instance.save (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\instance.js:573:29)
+    at Model.create (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\model.js:1821:6)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:9:17
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:14:48.103] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 23
+err name: ReferenceError
+err message: generateId is not defined
+err stack: ReferenceError: generateId is not defined
+    at Model.beforeValidate (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app_need\db.js:55:34)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\hooks.js:142:19
+    at tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Object.gotValue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:155:18)
+    at Object.gotAccum (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\reduce.js:144:25)
+    at Object.tryCatcher (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\debuggability.js:397:19)
+    at Promise._then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:232:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.5.0@bluebird\js\release\promise.js:125:17)
+    at Promise.then (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\promise.js:21:17)
+    at Instance.save (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\instance.js:573:29)
+    at Model.create (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\sequelize\lib\model.js:1821:6)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:9:17
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-08 22:16:28.164] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2
+err name: ReferenceError
+err message: now is not defined
+err stack: ReferenceError: now is not defined
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\routes\index.js:9:64
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at app.use (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\app.js:31:11)
+    at dispatch (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.2.1@koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\12156\Desktop\js\node\ko2\HelloKoa2\node_modules\.3.0.0@koa-static\index.js:43:20)
+*************** error log end ***************
+
