@@ -36,6 +36,11 @@ app.use(async (ctx, next) => {
     log.logError(ctx, e, ms);
   }
 });
+//产生数据传输中枢
+app.use(async (ctx, next) => {
+  ctx.data={};
+  await next();
+});
 // routes
 app.use(_index.routes(), _index.allowedMethods());
 

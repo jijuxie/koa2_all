@@ -1,0 +1,288 @@
+[2017-04-13 23:38:03.637] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:03.655] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:03.784] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:03.912] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:03.959] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:06.816] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:07.611] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:10.743] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:10.746] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:10.843] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:10.847] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.518] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.521] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.618] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.693] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.708] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.796] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.895] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.898] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:11.957] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:38:12.055] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-04-13 23:57:35.212] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 141
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n:<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-13 23:58:01.777] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 156
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n:<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2017-04-13 23:58:05.732] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /index/
+request client ip:  ::1
+request query:  {}
+response time: 24
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神2:hahahah<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n神1:abcd<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n恶魔:1233<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\n神haha:123<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n:<br/>\r\n\r\naaa:asdasd<br/>\r\n\r\n</body>\r\n</html>"
+*************** response log end ***************
+
