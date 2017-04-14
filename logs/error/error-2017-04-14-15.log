@@ -1,0 +1,308 @@
+[2017-04-14 15:29:55.232] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api_user.js:6:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:366:12)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:45:9)
+*************** error log end ***************
+
+[2017-04-14 15:33:00.953] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api_user.js:6:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:366:12)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:45:9)
+*************** error log end ***************
+
+[2017-04-14 15:33:02.293] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api_user.js:6:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:366:12)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:45:9)
+*************** error log end ***************
+
+[2017-04-14 15:34:56.035] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:45:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:32:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-14 15:36:07.450] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response time: 4
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:33:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-14 15:37:09.961] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:33:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-14 15:37:26.204] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:33:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-14 15:37:45.227] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:33:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-14 15:38:02.199] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:33:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-14 15:38:29.492] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:33:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2017-04-14 15:38:46.401] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response time: 4
+err name: TypeError
+err message: ctx.rest is not a function
+err stack: TypeError: ctx.rest is not a function
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api.js:5:7
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:33:11)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at send.then.done (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+

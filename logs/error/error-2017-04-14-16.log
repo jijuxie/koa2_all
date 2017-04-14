@@ -1,0 +1,84 @@
+[2017-04-14 16:32:20.935] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/12
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'param' of undefined
+err stack: TypeError: Cannot read property 'param' of undefined
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api_user.js:6:21
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:366:12)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+*************** error log end ***************
+
+[2017-04-14 16:34:04.415] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/12
+request client ip:  ::1
+request query:  {}
+response time: 5
+err name: TypeError
+err message: Cannot read property 'params' of undefined
+err stack: TypeError: Cannot read property 'params' of undefined
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api_user.js:6:21
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:366:12)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+*************** error log end ***************
+
+[2017-04-14 16:34:05.462] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/12
+request client ip:  ::1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'params' of undefined
+err stack: TypeError: Cannot read property 'params' of undefined
+    at C:\Users\qinxy\Desktop\node\koa2_all\routes\api_user.js:6:21
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:366:12)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\qinxy\Desktop\node\koa2_all\node_modules\koa-compose\index.js:45:18)
+    at app.use (C:\Users\qinxy\Desktop\node\koa2_all\app.js:46:9)
+*************** error log end ***************
+

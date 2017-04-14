@@ -11,9 +11,12 @@ const index = require('./routes/index');
 //log工具
 const log = require('./app_need/log');
 // error handler
+
+const rest=require('./app_need/restfulAPI');
 onerror(app);
 
 // middlewares
+app.use(rest.restify('/api'));
 app.use(bodyparser);
 app.use(json());
 app.use(logger());
@@ -33,6 +36,7 @@ app.use(async (ctx, next) => {
     console.log(`${ctx.method} ${ctx.url} - ${ms}ms`);//打印请求的方式请求的url和请求所花费的时
   } catch (e) {
     const ms = new Date() - start;
+    console.log(e);
     log.logError(ctx, e, ms);
   }
 });
